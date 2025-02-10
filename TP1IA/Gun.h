@@ -32,7 +32,7 @@ class Gun
 		{     1,      0 ,      0,         0,          0},//Reloading
 	};
 
-	//State* state = new FullState();
+	State* state = new FullState();
 public : 																	 
 	void Update(float deltaTime);
 	void Shoot();
@@ -41,4 +41,5 @@ public :
 	int GetAmmo();
 	int GetCapacity();
 	void SetAmmo(int Ammo);
+	void SetState(State* state);
 };

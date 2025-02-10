@@ -61,3 +61,7 @@ int Gun::GetCapacity(){
 void Gun::SetAmmo(int Ammo) {
 	Ammo = Ammo;
 }
+
+void Gun::SetState(State* state) {
+
+}
